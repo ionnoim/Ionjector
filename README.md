@@ -1,5 +1,7 @@
 # Ionjector
 
+![screenshot](ionjector.png)
+
 Ionjector is a versatile packet injection tool designed for network security research, penetration testing, and network protocol experimentation. This application allows users to craft custom packets with flexible options for encryption, protocol selection, MAC/IP spoofing, and payload management. With features for packet replay and flooding, Ionjector is a powerful tool for testing network defenses and researching packet-based attacks within a controlled, legal environment.
 
 ## Features

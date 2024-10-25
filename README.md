@@ -1,12 +1,10 @@
 # Ionjector
 
-![screenshot](ionjector.png)
-
 Ionjector is a versatile packet injection tool designed for network security research, penetration testing, and network protocol experimentation. This application allows users to craft custom packets with flexible options for encryption, protocol selection, MAC/IP spoofing, and payload management. With features for packet replay and flooding, Ionjector is a powerful tool for testing network defenses and researching packet-based attacks within a controlled, legal environment.
 
 ## Features
 
-- **Custom Packet Crafting**: Create packets for TCP, UDP, ICMP, or Ethernet protocols.
+- **Custom Packet Crafting**: Create packets for TCP, UDP, ICMP, HTTP, FTP, DNS or Ethernet protocols.
 - **Payload Encryption**: Choose from multiple encryption methods (`none`, `xor`, `aes`, and `des`) to secure payload contents.
 - **MAC/IP Spoofing**: Modify source MAC and IP addresses for legal testing and research.
 - **File-Based Payloads**: Load payloads from external files (text or binary) for efficient, reusable testing.
@@ -74,8 +72,8 @@ Upon launching Ionjector, you’ll see a main menu with the following options:
 
 ### Detailed Option Breakdown
 
-- **Protocol Selection**: Choose between `TCP`, `UDP`, `ICMP`, and `Ethernet` protocols.
-- **Encryption Options**: Apply `xor`, `aes`, or `des` encryption to payloads, or leave them unencrypted.
+- **Protocol Selection**: Choose between `TCP`, `UDP`, `ICMP`, `HTTP`, `FTP`, `DNS` and `Ethernet` protocols.
+- **Encryption Options**: Apply `xor`, `aes`, `des`, `3des` and `blowfish` encryption to payloads, or leave them unencrypted.
 - **MAC/IP Spoofing**: Enter custom MAC and IP addresses for source fields to mimic different device identities in the packet header.
 - **Payload Input**: Select payload entry as plain text or load from an external file, which allows reusable and more complex payloads.
 - **Replay and Flooding**: Replay the last crafted packet configuration or flood the network with it, optionally defining the packet count for flood tests.
@@ -93,9 +91,9 @@ Here’s a quick example of how to use Ionjector to craft and send a packet.
 
 3. **Configure packet options**:
    - **Target**: Specify the IP or MAC address of the target.
-   - **Protocol**: Choose between TCP, UDP, ICMP, or Ethernet.
+   - **Protocol**: Choose between TCP, UDP, ICMP, HTTP, FTP, DNS or Ethernet.
    - **Payload**: Enter text directly or choose a file-based payload.
-   - **Encryption**: Select `none`, `xor`, `aes`, or `des`.
+   - **Encryption**: Select `none`, `xor`, `aes`, `3des`, `des` or `blowfish`
    - **Spoofing**: Optionally spoof the source IP and/or MAC address.
    - **Interface**: Choose a network interface, such as `eth0` or `wlan0`.
    - **Flood and Replay**: Send multiple copies of the last packet or conduct a replay with prior configuration.

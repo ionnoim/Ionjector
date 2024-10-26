@@ -16,16 +16,6 @@ Ionjector is a versatile packet injection tool designed for network security res
 
 **Ionjector is intended strictly for legal network research, educational, and ethical penetration testing purposes. Unauthorized use of this tool on networks or devices without permission is illegal and unethical.** The creators and maintainers of Ionjector assume no liability for any misuse of the application. By using Ionjector, users agree to take full responsibility for their actions and to ensure compliance with all applicable laws and regulations.
 
-## Table of Contents
-
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Launching the Application](#launching-the-application)
-  - [Menu Options](#menu-options)
-- [Example Usage](#example-usage)
-- [Testing File Payloads](#testing-file-payloads)
-- [License](#license)
 
 ## Requirements
 

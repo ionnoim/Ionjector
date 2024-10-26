@@ -57,29 +57,6 @@ pip install scapy pycryptodome
    python3 ionjector.py
    ```
 
-## Usage
-
-### Launching the Application
-
-Running the application will display an ASCII banner for Ionjector, followed by a menu with various options for packet crafting and testing.
-
-### Menu Options
-
-Upon launching Ionjector, you’ll see a main menu with the following options:
-
-1. **Send a crafted packet**: Create and send a custom packet using user-defined specifications for protocol, encryption, MAC/IP spoofing, and payload data.
-2. **Replay last packet**: Resend the last crafted packet with the same configuration.
-3. **Flood last packet**: Flood the network with the last crafted packet to simulate high-traffic scenarios.
-4. **Exit**: Close the application.
-
-### Detailed Option Breakdown
-
-- **Protocol Selection**: Choose between `TCP`, `UDP`, `ICMP`, `HTTP`, `FTP`, `DNS` and `Ethernet` protocols.
-- **Encryption Options**: Apply `xor`, `aes`, `des`, `3des` and `blowfish` encryption to payloads, or leave them unencrypted.
-- **MAC/IP Spoofing**: Enter custom MAC and IP addresses for source fields to mimic different device identities in the packet header.
-- **Payload Input**: Select payload entry as plain text or load from an external file, which allows reusable and more complex payloads.
-- **Replay and Flooding**: Replay the last crafted packet configuration or flood the network with it, optionally defining the packet count for flood tests.
-
 ## Example Usage
 
 Here’s a quick example of how to use Ionjector to craft and send a packet.

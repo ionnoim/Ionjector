@@ -91,3 +91,5 @@ Specify the file path when prompted to use it as the packet payload.
 Ionjector is open-source software licensed under the [MIT License](LICENSE).
 
 Thanks for taking an interest in my work! ionnoim@proton.me
+
+Note: Planning to add a "Modify Last Payload" option soon in the replay menu, for efficiency of use.

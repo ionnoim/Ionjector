@@ -92,4 +92,4 @@ Ionjector is open-source software licensed under the [MIT License](LICENSE).
 
 Thanks for taking an interest in my work! ionnoim@proton.me
 
-Note: Planning to add a "Modify Last Payload" option soon for efficiency of use.
+Note: Planning to add a "Modify Payload and Resend" option soon for efficiency of use.
